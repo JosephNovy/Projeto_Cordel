@@ -58,6 +58,7 @@ section > p {
 section.normal{
     background-color: rgb(252, 240, 224);
     color: black;
+    background-size: cover;
     
 }
 section.imagem{
@@ -79,6 +80,10 @@ section#img01{
 }
 section#img02{
     background-image: url("../documentos/imagens/background002.jpg");
+    background-position: right center;
+}
+section#container{
+    background-image: url("../documentos/imagens/background004.jpg");
     background-position: right center;
 }
 
